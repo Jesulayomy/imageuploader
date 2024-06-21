@@ -22,13 +22,8 @@
           <h2 class="mb-0">
             Hello, Welcome to #ATE2024, scan to enter a chance to win prizes
           </h2>
-          <p class="m-0 p-0 pt-2">Share with friends!</p>
-          <div class="d-flex justify-content-around">
-            <a class="btn btn-success" href="whatsapp://send?text=I've%20shared%20my%20badge%20for%20%23ATE2024%20Unotelos%20challenge%2C%20Scan%20and%20be%20scanned%20for%20a%20chance%20to%20win%20prizes%20https%3A%2F%2Fate.jesulayomi.tech%2F" title="Share on whatsapp">WhatsApp</a>
-            <button type="button" class="btn btn-info" onclick="copyText()">Copy Link</button>
-          </div>
         </div>
-        <div class="col-11 col-md-4 p-2">
+        <div class="col-11 col-md-4">
           <img
             src="/media/myimage/layo.png"
             alt="Scan to win"
@@ -66,7 +61,7 @@
         <div class="col-sm-4">
           <div class="card m-2">
             <img
-              src="{{x.photo}}"
+              src="{{x.photo.url}}"
               alt=""
               class="card-img-top"
               height="200px"
@@ -89,11 +84,5 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function copyText() {
-        navigator.clipboard.writeText
-          ("https://ate.jesulayomi.tech/");
-      }
-  </script>
   </body>
 </html>
